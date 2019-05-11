@@ -3,19 +3,13 @@
 
 name = "Blood Suckr"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
-homepage = "http://example.com/"
-tags = []
-features = []
+licenselink = "https://github.com/danielshaar/danielshaar.github.io/blob/source/themes/blood-suckr/LICENSE"
+description = "A simple theme for the Leech website using Bulma."
+homepage = "https://github.com/danielshaar/danielshaar.github.io/blob/source/themes/blood-suckr"
+tags = ["blog", "responsive", "clean"]
+features = ["syntax highlighting"]
 min_version = "0.41"
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "Daniel Shaar"
+  homepage = "https://danielshaar.github.io/"
