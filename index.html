@@ -6,12 +6,20 @@
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
-<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script><body><nav class="navbar has-shadow is-spaced">
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script><body>
+<svg style="width:0;height:0;position:absolute;" aria-hidden="true" focusable="false">
+    <linearGradient id="leech-gradient">
+        <stop offset="0%" stop-color="#EB6536" />
+        <stop offset="100%" stop-color="#84377D" />
+    </linearGradient>
+</svg>
+
+<nav class="navbar has-shadow is-spaced">
     <div class="container">
         <div class="navbar-brand">
             <a class="navbar-item" href="https://danielshaar.github.io/">
-                <svg class="image is-64x64" fill="url(https://danielshaar.github.io/img/leech.svg#leech-gradient)">
-                    <use xlink:href="https://danielshaar.github.io/img/leech.svg#icon-leech"></use>
+                <svg class="image is-64x64" fill="url(#leech-gradient)">
+                    <use class="leech-path" xlink:href="https://danielshaar.github.io/img/leech.svg#icon-leech"></use>
                 </svg>
                 <h3 class="title is-3 has-text-weight-light">Leech</h3>
             </a>
