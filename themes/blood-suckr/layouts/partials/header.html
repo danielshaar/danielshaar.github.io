@@ -1,9 +1,17 @@
+<!-- Gradient for leech icon. Cannot be defined externally. -->
+<svg style="width:0;height:0;position:absolute;" aria-hidden="true" focusable="false">
+    <linearGradient id="leech-gradient">
+        <stop offset="0%" stop-color="#EB6536" />
+        <stop offset="100%" stop-color="#84377D" />
+    </linearGradient>
+</svg>
+
 <nav class="navbar has-shadow is-spaced">
     <div class="container">
         <div class="navbar-brand">
             <a class="navbar-item" href="{{ .Site.BaseURL }}">
-                <svg class="image is-64x64" fill="url({{ .Site.BaseURL }}img/leech.svg#leech-gradient)">
-                    <use xlink:href="{{ .Site.BaseURL }}img/leech.svg#icon-leech"></use>
+                <svg class="image is-64x64" fill="url(#leech-gradient)">
+                    <use class="leech-path" xlink:href="{{ .Site.BaseURL }}img/leech.svg#icon-leech"></use>
                 </svg>
                 <h3 class="title is-3 has-text-weight-light">Leech</h3>
             </a>
